@@ -31,12 +31,12 @@ npm run serve
 
 After the installation, navigate to http://localhost:8081 to try your hand at the questions.
 
-*Apple's new M1 chip does not run with this script. In order to run this application on a M1 mac, you need to update this line in the Dockerfile in the Trivial directory:
+*Apple's new M1 chip does not run with this script. In order to run this application on a M1 mac, you need to update this line in the Dockerfile in the Trivial directory:*
 ```
 FROM openjdk:16-jdk-alpine
 ```
-to:
+*to:*
 ```
 FROM azul/zulu-openjdk:15.0.4-15.34.17
 ```
-*
+
