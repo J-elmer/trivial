@@ -1,10 +1,11 @@
 **Trivial**
 
-Spring boot application with Vue JS for a simple quiz webapp. The user is presented 5 questions of random difficulty and random categories from OpenTrivia (*https://opentdb.com/9) through a Vue build front end using Bootstrap. The SpringBoot Applicatino actually retrieves the questions and present these to the user and checks the given answers.
+Spring boot application with Vue JS for a simple quiz webapp. The user is presented 5 questions of random difficulty and random categories from [OpenTrivia](https://opentdb.com/9) through a Vue build front end using Bootstrap. The SpringBoot Applicatino actually retrieves the questions and present these to the user and checks the given answers.
 
 **Installation**
 
 *Using Docker*
+
 Clone the repository and in the main directory run:
 
 ```
@@ -27,4 +28,5 @@ npm run serve
 ```
 
 **Using the app**
+
 After the installation, navigate to http://localhost:8081 to try your hand at the questions.
