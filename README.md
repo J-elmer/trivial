@@ -39,3 +39,4 @@ to:
 ```
 FROM azul/zulu-openjdk:15.0.4-15.34.17
 ```
+*
