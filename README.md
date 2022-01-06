@@ -28,11 +28,17 @@ FROM azul/zulu-openjdk:15.0.4-15.34.17
 
 *Installing locally*
 
+Note: to install locally you need to install npm first.
+
 To run locally, first start the Spring boot application. To do this, either run the application through an IDE or run the generated jar file in the main folder (trivia_application-0.0.1-SNAPSHOT.jar) with the following command:
 ```
 java -jar trivia_application-0.0.1-SNAPSHOT.jar
 ```
-Then navigate to the 'app' folder and run:
+Then navigate to the 'app' folder and run two commands:
+```
+npm install
+```
+and
 ```
 npm run serve
 ```
