@@ -9,6 +9,7 @@ services:
       - 8080:8080
     volumes:
       - ./:/app
+      - "./trivia_application-0.0.1-SNAPSHOT.jar:/app.jar"
 
   vue:
     build:
