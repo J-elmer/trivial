@@ -1,4 +1,4 @@
-**Trivial**
+#Trivial
 
 Spring boot application with Vue JS for a simple quiz webapp. The user is presented 5 questions of random difficulty and random categories from [OpenTrivia](https://opentdb.com/9) through a Vue build front end using Bootstrap. The SpringBoot Applicatino actually retrieves the questions and present these to the user and checks the given answers.
 
